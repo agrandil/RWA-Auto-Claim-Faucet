@@ -28,8 +28,8 @@ else:
     exit()
 
 # Define wallet addresses and private key
-monitor_wallet_address = Web3.to_checksum_address("0xFc9bAD6816623c36482a52651ee9fA049192cdC7")  # Your wallet address
-private_key = "80d9f8b7e372e39fef861eeb99d6e62b2489ae69a4f5cabd2539a7af70849fc5"  # Your private key
+monitor_wallet_address = Web3.to_checksum_address("xxx")  # Your wallet address
+private_key = "xxx"  # Your private key
 claim_contract_address = Web3.to_checksum_address("0x219BA210Ef31613390df886763099D0eD35aa6B8")  # Contract address to write claim
 target_contract_address = Web3.to_checksum_address("0x66b43eF7f5316fA62CbEB2D9C2a66c57d8d74792")  # Token contract address
 contract_abi = '[{"constant":false,"inputs":[],"name":"claimTokens","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]'  # ABI for claimTokens method
